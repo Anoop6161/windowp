@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/monu.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Happy User</h1>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-kindel-media-7579133.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mr.John</h5>
+            <p class="card-text">We are happy with serviece of Window Property.I had a great experience working with this home buyer. They were knowledgeable, professional, and made the whole process of selling my home simple and stress-free. I would definitely recommend them to anyone looking to sell their property quickly and easily.. </p>
+            <a href="#" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-kindel-media-7578939.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ravi Gupta</h5>
+            <p class="card-text"> Thanks Window property.I was amazed by how quickly this home buyer was able to purchase my home. They made me a fair offer and completed the transaction in a matter of days. The team was friendly and professional throughout the entire process. I couldn't be happier with the service I received. </p>
+            <a href="#" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-kindel-media-7578990.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Priya Patel</h5>
+            <p class="card-text">I had been struggling to sell my home for months when I decided to work with this home buyer. They were able to provide me with a cash offer that was higher than any other offers I had received. They made the whole process quick and easy, and I was able to move on with my life without the stress of a difficult sale. </p>
+            <a href="#" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJzKPAdLElVKjLy5FO6YJXaCINdwwYd1TkFYYDpG5Mw1GwU8OqdJXbfa/nfmIa9Q6" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+{% endblock %}

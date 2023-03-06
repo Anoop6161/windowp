@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/monu.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container mt-5">
+        <h1 class="text-center mb-5">Apartment Pricing</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>Studio Apartment</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Rs 30000/month</h4>
+                        <p class="card-text">Includes 1 bedroom, 1 bathroom, and a small kitchenette.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-info text-light">
+                        <h3>1-Bedroom Apartment</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Rs 50000/month</h4>
+                        <p class="card-text">Includes 1 bedroom, 1 bathroom, a living room, and a full kitchen.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-secondary text-light">
+                        <h3>2-Bedroom Apartment</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">1Lach/month</h4>
+                        <p class="card-text">Includes 2 bedrooms, 2 bathrooms, a living room, and a full kitchen.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-4/4iV7WZQvl+GFOA0cSjQLg/xVWJ9IHngvL+Y4hc4i4gVZI6OOwPe6O3sgq3pU6D" crossorigin="anonymous"></script>
+{% endblock %}

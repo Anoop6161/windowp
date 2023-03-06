@@ -1,0 +1,54 @@
+{% extends 'base.html'%}
+{% block head %}
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/monu.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-5">Types of Properties in Apartments</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/static/img/pexels-max-rahubovskiy-5998136.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Studio</h5>
+            <p class="card-text">A small apartment consisting of one room with kitchenette and bathroom.</p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/static/img/pexels-max-rahubovskiy-6782567.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">One-Bedroom</h5>
+            <p class="card-text">An apartment consisting of one bedroom, a living room, kitchenette, and bathroom.</p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/static/img/pexels-pixabay-271624.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Two-Bedroom</h5>
+            <p class="card-text">An apartment consisting of two bedrooms, a living room, kitchenette, and bathroom.</p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="/static/img/pexels-kindel-media-7578990.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Three-Bedroom</h5>
+            <p class="card-text">An apartment consisting of three bedrooms, a living room, kitchenette, and bathroom.</p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

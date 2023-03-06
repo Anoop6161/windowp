@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/monu.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Recommended Apartments</h1>
+    <p>Here are some great apartments that we recommend for you:</p>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-max-rahubovskiy-6077368.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Super</h5>
+            <p class="card-text">The furniture is modern and stylish, with top-of-the-line appliances and fixtures throughout the apartment.
+The decor is tasteful and luxurious, with attention paid to even the smallest details. </p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-max-rahubovskiy-6585598.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deluxe</h5>
+            <p class="card-text"> The deluxe furnished apartment offers high-quality furnishings and amenities, with a focus on comfort and convenience.
+The furniture is comfortable and practical, with stylish design elements throughout the apartment. </p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img src="/static/img/pexels-rachel-claire-4846106.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Premimium</h5>
+            <p class="card-text">The premium furnished apartment is a luxurious option, with top-quality furnishings and amenities.
+The furniture is elegant and comfortable, with high-end appliances and fixtures throughout the apartment. </p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+{% endblock %}
